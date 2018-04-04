@@ -6,6 +6,9 @@
     body {
       margin: none;
       padding-top: 50px;
+      padding-left: none;
+      padding-right: none;
+      padding-bottom: none;
       font-family: Arial, Helvetica, sans-serif;
       white-space: nowrap;
   }
@@ -33,17 +36,17 @@
       margin: none;
   }
     nav > div {
-      display: inline;
+      display: inline-block;
   }
-    nav.links {
-      width: 20%;
+    nav > div[class="links"] {
+      width: 90%;
       text-align: right;
   }
-    nav.home {
+    nav  .div[class="home"] {
       width: 10%;
       text-shadow: 0px 1px 5px #444;
   }
-    nav.home a {
+    nav..div[class="home"] {
       font-size: 24px;
   }
     .main {
